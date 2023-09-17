@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="/css/index.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -37,6 +37,16 @@
             </li>
           </ul>
         </nav>
+        <button class="open-mobile-menu-btn">
+          <svg
+            class="open-mobile-menu-icon"
+            width="24"
+            height="24"
+            aria-label="mobile-menu-open-icon"
+          >
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <address class="main_address">
           <ul class="main-list">
             <li class="main-item">
@@ -55,18 +65,18 @@
     </header>
 
     <!-- Унікальний контент сторінки -->
-    <main>
-      <!-- Секція 1 -->
-      <section class="first-section">
+    <!-- <main> -->
+    <!-- Секція 1 -->
+    <!-- <section class="first-section">
         <div class="container">
           <h1 class="first-title">Effective Solutions for Your Business</h1>
           <button class="first-section-button" type="button">
             Order Service
           </button>
         </div>
-      </section>
-      <!-- Секція 2 -->
-      <section class="second-section">
+      </section> -->
+    <!-- Секція 2 -->
+    <!-- <section class="second-section">
         <div class="container">
           <h2 class="visually-hidden">Section 2</h2>
           <ul class="second-list">
@@ -144,9 +154,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!-- Секція 3 -->
-      <section class="third-section">
+      </section> -->
+    <!-- Секція 3 -->
+    <!-- <section class="third-section">
         <div class="container">
           <h2 class="third-title">Our Team</h2>
           <ul class="third-list">
@@ -405,10 +415,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <!-- Секція 4 -->
-      <section class="four-section">
+    <!-- Секція 4 -->
+    <!-- <section class="four-section">
         <div class="container">
           <h2 class="four-title">Our Portfolio</h2>
           <ul class="four-list">
@@ -582,9 +592,9 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
     <!-- Футер сторінки -->
-    <footer class="foot">
+    <!-- <footer class="foot">
       <div class="container foot-container">
         <div class="foot-container-one">
           <a href="./index.html" class="web"
@@ -675,9 +685,9 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- BACKDROP WITH MODAL WINDOW -->
-    <div class="backdrop is-open">
+    <!-- <div class="backdrop is-open">
       <div class="modal">
         <button class="close-btn" type="button">
           <svg
@@ -803,107 +813,104 @@
           <button class="contact-form-submit" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
     <!-- ====Menu Mobile==== -->
-    <!-- <div class="menu-mobile-container container">
-      <div class="menu-modal">
-        <button class="menu-close-btn" type="button">
-          <svg
-            class="menu-close-btn-icon"
-            width="8"
-            height="8"
-            aria-label="menu close icon"
-          >
-            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
-        <div class="container-menu-mobile-nav">
-          <nav class="menu-mobile-nav">
-            <ul class="menu-mobile-nav-list">
-              <li class="menu-mobile-page-item">
-                <a class="webstudio list current" href="./index.html">
-                  Studio
-                </a>
-              </li>
-              <li class="menu-mobile-page-item">
-                <a class="webstudio list" href="">Portfolio </a>
-              </li>
-              <li class="menu-mobile-page-item">
-                <a class="webstudio list" href="">Contacts </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+    <!--<div class="menu-mobile-container container is-open">-->
+    <div class="menu-mobile-container container">
+      <button class="menu-close-btn" type="button">
+        <svg
+          class="menu-close-btn-icon"
+          width="8"
+          height="8"
+          aria-label="menu close icon"
+        >
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="container-menu-mobile-nav">
+        <nav class="menu-mobile-nav">
+          <ul class="menu-mobile-nav-list">
+            <li class="menu-mobile-page-item">
+              <a class="webstudio list current" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-mobile-page-item">
+              <a class="webstudio list" href="">Portfolio</a>
+            </li>
+            <li class="menu-mobile-page-item">
+              <a class="webstudio list" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-        <div class="container-menu-mobile-address">
-          <address class="menu-mobile-address">
-            <ul class="menu-mobile-list">
-              <li class="menu-mobile-item">
-                <a class="menu-mobile-address" href="tel:+110001111111"
-                  >+11 (000) 111-11-11
-                </a>
-              </li>
-              <li class="menu-mobile-item">
-                <a class="menu-mobile-address" href="mailto:info@devstudio.com"
-                  >info@devstudio.com
-                </a>
-              </li>
-            </ul>
-          </address>
-        </div>
-        <div class="menu-mobile-icon">
-          <ul class="menu-mobile-icon-list">
-            <li class="menu-mobile-icon-item">
-              <a href="#" class="menu-mobile-icon-item-link">
-                <svg
-                  class="menu-list-icon"
-                  width="24"
-                  height="24"
-                  aria-label="icon-instagram"
-                >
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
+      <div class="container-menu-mobile-address">
+        <address class="menu-mobile-address">
+          <ul class="menu-mobile-list">
+            <li class="menu-mobile-item">
+              <a class="menu-mobile-address tel" href="tel:+110001111111"
+                >+11 (000) 111-11-11
               </a>
             </li>
-            <li class="menu-mobile-icon-item">
-              <a href="#" class="menu-mobile-icon-item-link">
-                <svg
-                  class="menu-list-icon"
-                  width="24"
-                  height="24"
-                  aria-label="icon-twitter"
-                >
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="menu-mobile-icon-item">
-              <a href="#" class="menu-mobile-icon-item-link">
-                <svg
-                  class="menu-list-icon"
-                  width="24"
-                  height="24"
-                  aria-label="icon-facebook"
-                >
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="menu-mobile-icon-item">
-              <a href="#" class="menu-mobile-icon-item-link">
-                <svg
-                  class="menu-list-icon"
-                  width="24"
-                  height="24"
-                  aria-label="icon-linkedin"
-                >
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
+            <li class="menu-mobile-item">
+              <a class="menu-mobile-address" href="mailto:info@devstudio.com"
+                >info@devstudio.com
               </a>
             </li>
           </ul>
-        </div>
+        </address>
       </div>
-    </div> -->
+      <div class="menu-mobile-icon">
+        <ul class="menu-mobile-icon-list">
+          <li class="menu-mobile-icon-item">
+            <a href="#" class="menu-mobile-icon-item-link">
+              <svg
+                class="menu-list-icon"
+                width="24"
+                height="24"
+                aria-label="icon-instagram"
+              >
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-mobile-icon-item">
+            <a href="#" class="menu-mobile-icon-item-link">
+              <svg
+                class="menu-list-icon"
+                width="24"
+                height="24"
+                aria-label="icon-twitter"
+              >
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-mobile-icon-item">
+            <a href="#" class="menu-mobile-icon-item-link">
+              <svg
+                class="menu-list-icon"
+                width="24"
+                height="24"
+                aria-label="icon-facebook"
+              >
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-mobile-icon-item">
+            <a href="#" class="menu-mobile-icon-item-link">
+              <svg
+                class="menu-list-icon"
+                width="24"
+                height="24"
+                aria-label="icon-linkedin"
+              >
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
