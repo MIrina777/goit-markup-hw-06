@@ -1,7 +1,7 @@
 /* убрати рамку після виконання роботи */
-/** {
+* {
   outline: 1px solid tomato;
-}*/
+}
 
 .container {
   padding-left: 16px;
