@@ -1,10 +1,35 @@
-/*MOBILE*/
-@media screen and (max-width: 767px) {
+/* =========================MOBILE============================= */
+@media screen and (min-width: 320px) {
   .nav-list {
     display: none;
   }
   .main_address {
     display: none;
+  }
+  .logo {
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 149px;
+    padding: 17.5px 0;
+  }
+  .studio {
+    color: #2e2f42;
+  }
+  .page-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .page-nav {
+    display: flex;
+    align-items: center;
   }
 
   /*Mobile menu*/
@@ -141,7 +166,7 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-
+/* =========================TABLET============================= */
 @media screen and (min-width: 768px) {
   .nav-list {
     display: flex;
@@ -222,36 +247,9 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
-
+/* =========================DESKTOP============================= */
 @media screen and (min-width: 1158px) {
   .main-list {
     display: flex;
   }
-}
-
-.logo {
-  color: #4d5ae5;
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
-  margin-right: 76px;
-  padding: 25.5px 0;
-}
-.studio {
-  color: #2e2f42;
-}
-
-.page-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.page-nav {
-  display: flex;
-  align-items: center;
 }
