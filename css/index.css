@@ -1,11 +1,13 @@
 /* UTILS */
 @import './utils/visually-hidden.css';
 @import './utils/variables.css';
+@import './utils/backdrop.css';
 
 /* BASE */
 @import './base/common.css';
 @import './base/container.css';
 @import './base/section.css';
+@import './base/modal.css';
 
 /* LAYOUT */
 @import './layout/header.css';
@@ -14,3 +16,4 @@
 @import './layout/thirdSection.css';
 @import './layout/fourSection.css';
 @import './layout/footer.css';
+@import './layout/modalWindow.css';
