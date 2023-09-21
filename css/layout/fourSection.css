@@ -17,13 +17,7 @@
     flex-wrap: wrap;
     gap: 48px;
   }
-  .four-item {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-    gap: 16px;
-  }
+
   .overlay {
     display: none;
   }

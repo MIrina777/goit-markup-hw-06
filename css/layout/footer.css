@@ -36,6 +36,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     max-width: 264px;
+    text-align: left;
+    margin-top: 17px;
   }
 
   .foot-two-text {
@@ -94,6 +96,7 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     color: #ffffff;
+    margin-bottom: 16px;
   }
   .placeholder {
     color: #ffffff;
@@ -125,19 +128,24 @@
 /*==========================TABLET============================*/
 @media screen and (min-width: 768px) {
   .foot-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 72px 24px;
-    margin-left: 108px;
-    justify-content: left;
+    justify-content: flex-start;
+    width: 584px;
   }
   .foot-form {
     display: flex;
     gap: 24px;
+    align-items: center;
   }
   .foot-container-one {
     text-align: left;
   }
   .foot-form-input {
     width: 264px;
+    margin-bottom: 0;
   }
   .foot-two-text {
     text-align: left;
@@ -153,13 +161,17 @@
     padding: 100px 0;
   }
   .foot-container {
-    margin-left: 0;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 0;
+  }
+  .foot-text {
   }
   .foot-container-one {
     margin-right: 120px;
   }
   .foot-container-two {
-    margin-right: 35px;
+    margin-right: 80px;
   }
   .foot-icom-item-link:hover,
   .foot-icom-item-link:focus {

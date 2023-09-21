@@ -29,6 +29,7 @@
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+
     text-transform: capitalize;
   }
   .second-section-text {
@@ -42,7 +43,8 @@
 /*===========================TABLET============================*/
 @media screen and (min-width: 768px) {
   .second-list {
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 72px;
   }
   .second-item {
     width: calc((100% - 24px) / 2);

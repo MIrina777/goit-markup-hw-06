@@ -112,6 +112,8 @@
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+    display: flex;
+    align-items: center;
   }
   .contact-form-own-checkbox {
     width: 16px;
@@ -126,7 +128,9 @@
     justify-content: center;
     fill: transparent;
   }
-
+  .contact-form-privacy {
+    margin-left: 8px;
+  }
   .contact-form-privacy-link {
     color: #4d5ae5;
   }
