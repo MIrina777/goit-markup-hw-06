@@ -35,6 +35,11 @@
     background: transparent;
     border: none;
   }
+  .open-mobile-menu-btn {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+  }
 
   /*Mobile menu*/
   .menu-mobile-container {
@@ -248,6 +253,7 @@
   }
 
   .webstudio {
+    display: block;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
